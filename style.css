@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+/*---------NAV-----------*/
+
+nav {
+    display: grid;
+    height: 100px;
+    background-color: grey;
+}
