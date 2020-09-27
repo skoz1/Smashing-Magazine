@@ -241,7 +241,7 @@
                             display: grid;
                             grid-template-columns: repeat(3, 1fr) 10%;
                             width: 100%;
-                            background-color: grey;
+                            background-color: rgb(222, 222, 222);
                         }
                         
                         .col {
@@ -299,7 +299,7 @@
                             grid-column: 2 /-1;
                             width: 3rem;
                             height: 2rem;
-                            margin-top: 5rem;
+                            margin-top: 4rem;
                             background-color: rgb(72, 71, 71);
                         }
                         
@@ -312,7 +312,7 @@
                             bottom: 0;
                             grid-column: 4;
                             margin-left: 50px;
-                            margin-bottom: 10px;
+                            margin-bottom: 20px;
                             width: 4rem;
                             height: 4rem;
                             background-color: rgb(94, 94, 94);
@@ -324,3 +324,76 @@
                             transform: rotate(0deg);
                         }
                         /*---------SECTION-4-----------*/
+                        
+                        .sect-4 {
+                            display: grid;
+                            grid-template-columns: 1fr 2fr 5%;
+                            width: 100%;
+                            background-color: rgb(222, 222, 222);
+                        }
+                        
+                        #ad-1 {
+                            margin-top: 2rem;
+                            margin-left: 3rem;
+                            margin-right: 1rem;
+                            height: 12rem;
+                            background-color: rgb(199, 197, 197);
+                            border-radius: 10px;
+                        }
+                        
+                        #members {
+                            display: grid;
+                            grid-column: 2 /-2;
+                            grid-template-columns: 1fr 2fr 1fr;
+                            grid-template-rows: repeat(4, 1fr)10%;
+                            justify-items: center;
+                            align-items: center;
+                            background-color: rgb(24, 24, 24);
+                            border-radius: 10px;
+                            height: 100vh;
+                        }
+                        
+                        #members>img {
+                            grid-row: 1 /-5;
+                            grid-column: 2 / -2;
+                            width: 12rem;
+                            height: 12rem;
+                            margin: 3rem 0;
+                            background-color: rgb(40, 40, 40);
+                        }
+                        
+                        #members>h2 {
+                            grid-row: 2 /-4;
+                            grid-column: 2 / -2;
+                            width: 30rem;
+                            height: 4rem;
+                            background-color: rgb(169, 169, 169);
+                        }
+                        
+                        #para-3 {
+                            grid-row: 3 /-3;
+                            grid-column: 2 / -2;
+                            width: 35rem;
+                            height: 6rem;
+                            margin-top: 1rem;
+                            background-color: rgb(58, 58, 58);
+                        }
+                        
+                        #members>button {
+                            grid-row: 4 /-2;
+                            grid-column: 2 / -2;
+                            width: 13rem;
+                            height: 4rem;
+                            margin-top: 2rem;
+                            background-color: rgb(235, 235, 235);
+                            border-radius: 10px;
+                        }
+                        
+                        #para-4 {
+                            grid-row: 5 /-1;
+                            grid-column: 2 / -2;
+                            width: 13rem;
+                            height: 1rem;
+                            margin-bottom: 1rem;
+                            background-color: rgb(79, 79, 79);
+                        }
